@@ -1,0 +1,27 @@
+# ---- 機密：絕不進版控 ----
+.env
+*.pfx
+*.p12
+certs/
+credentials/
+
+# ---- 資料與輸出：自己跑程式重建 ----
+market-index/data/
+market-index/results/
+*.parquet
+*.jpg
+*.png
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- 編輯器 / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
